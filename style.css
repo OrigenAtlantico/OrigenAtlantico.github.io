@@ -1,0 +1,125 @@
+/* Configuración general elegante */
+body {
+    font-family: 'Cinzel', 'Didot', 'Garamond', 'Times New Roman', serif; /* Tipografías con estilo clásico/lujoso */
+    background-color: #0d131a; /* Azul marino extremadamente oscuro, casi negro */
+    color: #e6ebed; /* Blanco suave, no encandila */
+    margin: 0;
+    padding: 30px 20px;
+    text-align: center;
+    letter-spacing: 1px; /* Separa las letras un toque para dar elegancia */
+}
+
+/* Cabecera */
+header {
+    margin-bottom: 40px;
+}
+
+header .logo-text {
+    font-size: 28pt;
+    font-weight: 300;
+    color: #d4af37; /* Dorado metálico premium */
+    letter-spacing: 4px;
+    margin-bottom: 5px;
+}
+
+header .subtitle {
+    font-size: 9pt;
+    color: #a3b8cc; /* Gris azulado fino */
+    margin-top: 0;
+    letter-spacing: 3px;
+}
+
+/* Introducción */
+.intro {
+    max-width: 450px;
+    margin: 0 auto 40px auto;
+    font-size: 11pt;
+    line-height: 1.6;
+    color: #cbd5e1;
+    font-style: italic;
+}
+
+/* Sección de Cajas/Boxes */
+main {
+    max-width: 450px;
+    margin: 0 auto 40px auto;
+}
+
+main h2 {
+    font-size: 16pt;
+    color: #d4af37; /* Dorado */
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+
+/* Tarjetas individuales de cada Box */
+.box-item {
+    background-color: #141e29; /* Un azul un toque más claro que el fondo para hacer contraste */
+    border: 1px solid #223142; /* Borde muy fino sutil */
+    border-radius: 4px; /* Bordes casi rectos, más serios y elegantes */
+    padding: 25px;
+    margin-bottom: 20px;
+    text-align: left; /* Texto alineado a la izquierda dentro de la tarjeta */
+}
+
+.box-item h3 {
+    margin: 0 0 10px 0;
+    color: #ffffff;
+    font-size: 14pt;
+    font-weight: 500;
+}
+
+.box-item .box-desc {
+    color: #94a3b8;
+    font-size: 10pt;
+    line-height: 1.5;
+    margin: 0 0 15px 0;
+}
+
+.box-item .price {
+    color: #d4af37; /* Precio en dorado */
+    font-size: 13pt;
+    font-weight: bold;
+    display: block;
+}
+
+/* Pie de página y Botones */
+footer {
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+.cta-text {
+    font-size: 10pt;
+    color: #a3b8cc;
+    margin-bottom: 20px;
+}
+
+/* Estilo base para los botones sofisticados */
+footer a {
+    display: block;
+    text-decoration: none;
+    padding: 16px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    font-size: 11pt;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase; /* Todo en mayúsculas para el look premium */
+}
+
+/* Botón de WhatsApp elegante (Fondo oscuro con borde dorado, no el verde chillón) */
+footer .btn-whatsapp {
+    background-color: transparent;
+    color: #d4af37;
+    border: 1px solid #d4af37;
+}
+
+/* Botón de Instagram sutil */
+footer .btn-instagram {
+    background-color: #141e29;
+    color: #ffffff;
+    border: 1px solid #223142;
+}
