@@ -123,3 +123,10 @@ footer .btn-instagram {
     color: #ffffff;
     border: 1px solid #223142;
 }
+/* Estilo para las imágenes de los boxes */
+.box-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px; /* Un mini borde redondeado para combinar */
+    margin-bottom: 15px; /* Separa la foto del texto */
+}
